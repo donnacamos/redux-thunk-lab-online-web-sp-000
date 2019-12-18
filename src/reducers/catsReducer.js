@@ -14,3 +14,5 @@ export default function catsReducer(state= initialState, action){
             return {...state, loading: false, pictures: action.payload}
         default:
             return state
+    }
+}
