@@ -8,7 +8,7 @@ export class App extends Component {
 
   componentDidMount() {
     if (this.props.catPics.length === 0) {
-      this.props.fetchCats()
+      this.props.addCats() 
     }
   }
 
