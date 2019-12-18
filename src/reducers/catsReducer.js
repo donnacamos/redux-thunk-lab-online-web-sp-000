@@ -12,5 +12,5 @@ export default function catsReducer(state= initialState, action){
             return  {...state, loading: true}
         case "FETCH_CATS":
             return {...state, loading: false, pictures: action.payload}
-        default: 
+        default:
             return state
