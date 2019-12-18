@@ -1,6 +1,6 @@
 const initialState = {
     loading: false,
-    pictures: []
+    cats: []
 }
 
 export default function catsReducer(state= initialState, action){
