@@ -33,4 +33,4 @@ const mapStateToProps = (state) => {
     catPics: state.cats.pictures
   }
 }
-export default connect(mapStateToProps, {fetchCats})(App)
+export default connect(mapStateToProps, {addCats})(App)
