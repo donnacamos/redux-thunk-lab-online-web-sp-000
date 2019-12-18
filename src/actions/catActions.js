@@ -4,7 +4,7 @@ export function fetchCats(){
 
         dispatch({type: "LOADING_CATS"})
 
-        return fetch('http://localhost:4000/db')
+        return fetch('https://learn-co-curriculum.github.io/cat-api/cats.json')
             .then(res => res.json())
             .then(data => dispatch({type: "FETCH_CATS", payload: data.images}))
 
