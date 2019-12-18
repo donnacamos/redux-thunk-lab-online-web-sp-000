@@ -5,12 +5,12 @@ import { fetchCats } from './actions/catActions'
 import CatList from './CatList'
 
 
-class App extends Component {   
+class App extends Component {
 
   componentDidMount(){
     this.props.fetchCats()
   }
-  
+
   render() {
     console.log(this.props.catPics)
     return (
